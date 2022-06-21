@@ -1,0 +1,12 @@
+first_name=[a-zA-Z\s]*=First Name cannot contain numbers or special characters!!!
+last_name=[a-zA-Z\s]*=Last Name cannot contain numbers or special characters!!!
+email=.+=
+email=\S+@\S+\.\S+=Invalid Email!!!
+username=.+=
+username=.{5,}=Username cannot have less than 5 letters!!!
+username=.{0,20}=Username cannot have more than 20 letters!!!
+username=\w*=Username cannot contain spaces or special characters!!!
+password=.+=
+password=.{5,}=Password cannot have less than 5 letters!!!
+password=.{0,20}=Password cannot have more than 20 letters!!!
+password=\S*=Password cannot contain spaces!!!
